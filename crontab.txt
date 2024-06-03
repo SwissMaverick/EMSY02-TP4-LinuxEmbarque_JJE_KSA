@@ -1,0 +1,12 @@
+Ouvrir le fichier crontab :
+crontab -e
+
+Modifier le fichier avec la ligne suivante (envoie toutes les 15 minutes) :
+
+*/15 * * * * /usr/bin/python3 /home/debian/send_email.py
+
+Sauvgarde :
+Crtl+X --> Y --> [ENTER]
+
+Vérifier que la tâche cron a bien été enregistrée :
+crontbal -l
