@@ -9,4 +9,4 @@ Sauvgarde :
 Crtl+X --> Y --> [ENTER]
 
 Vérifier que la tâche cron a bien été enregistrée :
-crontbal -l
+crontab -l
